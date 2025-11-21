@@ -1,0 +1,67 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+/* Shared centering for all */
+body.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card container for forms and profile */
+.container {
+  width: 350px;
+  max-width: 90%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Buttons  */
+input[type="submit"],
+button,
+a.btn {
+  background: #ec5757;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover,
+a.btn:hover {
+  background: #c74a5f;
+}
+
+/* Alerts */
+.success, .error {
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.success { background: #d4edda; color: #155724; }
+.error { background: #f8d7da; color: #721c24; }
