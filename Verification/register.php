@@ -495,11 +495,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
 
         <div class="login-link">
-            Already have an account? <a href="login.php">Login here</a>
+            Already have an account? <a href="login.php">Login here
         </div>
 
         <div class="back-link">
-            <a href="welcome.php">← Back to home</a>
+            <a href="https://peakbasa.site/PeakBasa/Main/welcome.php">← Back to home</a>
         </div>
     </div>
 

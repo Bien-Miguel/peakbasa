@@ -537,7 +537,7 @@ ob_end_flush();
         </div>
 
         <div class="register-link">
-            Don't have an account? <a href="../Main/welcome.php">Register here</a>
+            Don't have an account? <a href="../Verification/register.php">Register here</a>
         </div>
 
         <div class="back-link">

@@ -623,7 +623,7 @@ session_start();
       <h1>Discover PeakBasa</h1>
       <p>Your ultimate platform for climbing to new heights in literacy and education. Join thousands of students and teachers on their journey to success.</p>
       <div class="cta-buttons">
-        <a href="register.php?role=student" class="cta-btn primary">Get Started</a>
+        <a href="../Verification/register.php?role=student" class="cta-btn primary">Get Started</a>
         <a href="#features" class="cta-btn secondary">Learn More</a>
       </div>
     </div>
